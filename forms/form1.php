@@ -17,7 +17,7 @@
             ?>
             <form method="POST" action="../utils/resultat.php">
                 <div class="form-group">
-                    <center><h3>adresse <?php echo $i; ?> </h3></center>
+                    <center><h1>Adresse <?php echo $i; ?> </h1></center>
                     <label for="street<?php echo $i; ?>">Rue:</label>
                     <input type="text" id="street<?php echo $i; ?>" name="street<?php echo $i; ?>" value="" maxlength='50' required>
                     <br><br>
